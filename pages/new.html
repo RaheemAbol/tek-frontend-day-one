@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      header {
+        height: 15vh;
+        width: 50vw;
+        background-color: navy;
+        color: white;
+      }
+      main {
+        height: 45vh;
+        background-color: magenta;
+        color: white;
+      }
+      section {
+        height: 20vh;
+        background-color: yellow;
+        color: white;
+      }
+      footer {
+        height: 10vh;
+        background-color: grey;
+        color: white;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      li {
+        float: left;
+        border-right: 1px solid #bbb;
+      }
+      li:last-child {
+        border-right: none;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover:not(.active) {
+        background-color: magenta;
+      }
+      .active {
+        background-color: #04aa6d;
+      }
+      .login-user {
+        height: 1em;
+        margin-right: 2em;
+        vertical-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#resources">Resources</a></li>
+      <li style="float: right">
+        <a href="#login">
+          <img
+            src="login-user.png"
+            alt="Login 
+       Icon"
+            class="login-user"
+          />Log In
+        </a>
+      </li>
+    </ul>
+    <header>header</header>
+    <main>main</main>
+    <section>section</section>
+    <footer>footer</footer>
+  </body>
+</html>
