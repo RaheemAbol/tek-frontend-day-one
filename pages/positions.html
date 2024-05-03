@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>postions</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Pacifico&family=Roboto:ital,wght@0,100;0,400;0,700;1,500&family=Yellowtail&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #000000;
+      }
+      p {
+        color: rgba(4, 105, 38, 0.5);
+      }
+
+      .box {
+        height: 100px;
+        width: 100px;
+        border: 5px dashed red;
+        text-align: left;
+      }
+
+      div {
+        box-shadow: 20px 20px 20px 10px rgb(173, 38, 38);
+      }
+      #one {
+        background-color: blue;
+        position: static;
+        background-blend-mode: screen;
+        background-image: url(../images/beach1.jpg);
+        height: 200px;
+        width: 200px;
+      }
+
+      #grad {
+        background-image: linear-gradient(
+          to bottom right,
+          red,
+          rgb(21, 255, 0)
+        );
+      }
+
+      #two {
+        position: absolute;
+        top: 150px;
+        left: 250px;
+      }
+
+      #three {
+        background-color: green;
+        position: relative;
+        top: 20px;
+        left: 150px;
+      }
+
+      #four {
+        background-color: purple;
+        position: sticky;
+        top: 0px;
+        margin-left: 100px;
+      }
+
+      #five {
+        background-color: silver;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+      }
+
+      #inner {
+        background-color: red;
+        height: 20px;
+        width: 20px;
+        border: 1px solid black;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello world</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <div class="box" id="one">static</div>
+    <div class="box" id="grad" style="margin-top: 15px">absolute</div>
+    <div class="box" id="three"><div id="inner"></div></div>
+    <div class="box" id="four">sticky</div>
+    <div class="box" id="five">fixed</div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis
+      deleniti debitis quam assumenda obcaecati deserunt qui iusto natus a at
+      minus et, repellat ipsum dicta velit cum eius nobis?
+    </p>
+  </body>
+</html>
